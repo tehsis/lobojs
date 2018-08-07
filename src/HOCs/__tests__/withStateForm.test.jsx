@@ -6,7 +6,7 @@ import withStateForm from '../withStateForm';
 
 Enzyme.configure({adapter: new Adapter()});
 
-const TestFormWithStateForm = withStateForm(() => <form {...this.props}></form>);
+const TestFormWithStateForm = withStateForm(() => <form></form>);
 
 const ElementProps = {
   name: 'foo',
